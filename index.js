@@ -72,7 +72,7 @@ store[nino] = "bobi"
 
 function changing(key, value){
     store[key] = value
-}
+};
 
 changing("name", "zain")
 changing("job", "developer")
