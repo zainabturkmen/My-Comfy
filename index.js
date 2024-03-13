@@ -39,6 +39,8 @@ const jobs = people.map((person)=> {
 console.log(jobs);
 
 const newPeople = people.map((items)=>{
-    return `<p>${items.name}</p>`
+    return items.name;
 });
+
+console.log(newPeople);
 
