@@ -38,9 +38,11 @@ const jobs = people.map((person)=> {
 
 console.log(jobs);
 
-const newPeople =[...new Set(people.map((items)=>{
-    return items.name;
-}))];
+// const newPeople =[...new Set(people.map((items)=>{
+//     return items.name;
+// }))];
+
+const newPeople = [...new Set(people.map(person => person.name))];
 
 console.log(newPeople);
 
