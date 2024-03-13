@@ -47,5 +47,4 @@ const newPeople =[...new Set(people.map((person) => {
 }))];
 
 document.body.innerHTML = newPeople.join("");
-
 console.log(newPeople);
