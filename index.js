@@ -66,7 +66,7 @@ const store = {
     [app]: ["slippers", "skirt", "hat"],
     name: "",
     job:""
-}
+};
 
 store[nino] = "bobi"
 
