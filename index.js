@@ -58,10 +58,13 @@ const person = {
 }
 const result = person.name;
 person.age = 21
-console.log(person);
+console.log(person["cousre"]);
 
+let app = "loading"
+let nino = "laugh"
 const store = {
-    "my-fav": ["slippers", "skirt", "hat"]
+    [app]: ["slippers", "skirt", "hat"]
 }
 
-console.log(store["my-fav"][2]);
+store[nino] = "lol"
+console.log(store);
