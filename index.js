@@ -52,3 +52,11 @@ document.body.innerHTML = newPeople.map((btn)=>{
 console.log(newPeople);
 
 
+const person = {
+    name: "Zainab",
+    cousre: "Scrimba",
+}
+
+const result = person.name;
+person.age = 21
+console.log(person);
