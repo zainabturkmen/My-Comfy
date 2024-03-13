@@ -21,16 +21,14 @@ const people = [
 
 const jobs = people.map((person)=> {
     return person.age * 3
-});
+
+}).join("");
 
 console.log(jobs);
 
 const newPeople = people.map((items)=>{
-    return {
-        firstName: items.name.toUpperCase(),
-        oldAge: items.age * 2,
-        duty: items.job.toUpperCase(),
-    };
+    return `<h1>${items.name}</h1>`
 });
 
-console.log(newPeople);
+document.body.innerHTML = newPeople.join("")
+// console.log(newPeople);
