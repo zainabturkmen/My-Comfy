@@ -75,6 +75,6 @@ function changing(key, value){
 };
 
 changing("name", "zain");
-changing("job", "developer")
+changing("job", "developer");
 
 console.log(store);
