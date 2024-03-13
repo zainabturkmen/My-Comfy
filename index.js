@@ -56,7 +56,12 @@ const person = {
     name: "Zainab",
     cousre: "Scrimba",
 }
-
 const result = person.name;
 person.age = 21
 console.log(person);
+
+const store = {
+    "my-fav": ["slippers", "skirt", "hat"]
+}
+
+console.log(store["my-fav"][2]);
