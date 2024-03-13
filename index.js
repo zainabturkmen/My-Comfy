@@ -50,3 +50,5 @@ document.body.innerHTML = newPeople.map((btn)=>{
     return `<button>${btn}</button>`
 }).join("")
 console.log(newPeople);
+
+
