@@ -68,7 +68,7 @@ const store = {
     job:""
 }
 
-store[nino] = "lol"
+store[nino] = "bobi"
 
 function changing(key, value){
     store[key] = value
