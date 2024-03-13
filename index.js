@@ -63,8 +63,17 @@ console.log(person["cousre"]);
 let app = "loading"
 let nino = "laugh"
 const store = {
-    [app]: ["slippers", "skirt", "hat"]
+    [app]: ["slippers", "skirt", "hat"],
+    name: "",
+    job:""
 }
 
 store[nino] = "lol"
+
+function changing(key, value){
+    store[key] = value
+}
+
+changing("name", "zain")
+
 console.log(store);
