@@ -46,5 +46,7 @@ const newPeople =["John",...new Set(people.map((person) => {
     return `<p>${person.name}</p>`
 }))];
 
-document.body.innerHTML = newPeople.join("");
+document.body.innerHTML = newPeople.map((btn)=>{
+    return `<button>${btn}</button>`
+}).join("")
 console.log(newPeople);
