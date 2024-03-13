@@ -42,7 +42,10 @@ console.log(jobs);
 //     return items.name;
 // }))];
 
-const newPeople = [...new Set(people.map(person => person.name))];
+const newPeople =[...new Set(people.map((person) => {
+    return `<h1>${person.name}</h1>`
+}))];
+
+document.body.innerHTML = newPeople.join("");
 
 console.log(newPeople);
-
