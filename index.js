@@ -7,6 +7,12 @@ const people = [
     },
 
     {
+        name: "susi",
+        age: 30,
+        job: "UI/ UX"
+    },
+
+    {
         name: "job",
         age: 34,
         job: "full stack developer"
@@ -16,6 +22,12 @@ const people = [
         name:"Zainab",
         age: 21,
         job: "frontend developer"
+    },
+
+    {
+        name:"Zainab",
+        age: 24,
+        job: "backend developer"
     },
 ];
 
@@ -27,8 +39,6 @@ const jobs = people.map((person)=> {
 console.log(jobs);
 
 const newPeople = people.map((items)=>{
-    return `<h1>${items.name}</h1>`
+    return `<p>${items.name}</p>`
 });
 
-document.body.innerHTML = newPeople.join("")
-// console.log(newPeople);
